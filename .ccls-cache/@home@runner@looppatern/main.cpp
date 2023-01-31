@@ -80,26 +80,24 @@ int main() {
     //       }
     // }
   // }
-  //hollow pyramid
-  // for(int x = 0;x<6;x++){
-  //   if(x==0){
-  //     cout<<"           *  "<<endl;
-  //   }
-  //   else if(x==1){ 
-  //     cout<<"        *      *"<<endl;
-  //   }
-  //   else if(x==2){ 
-  //     cout<<"      *           *"<<endl;
-  //   }
-  //   else if(x==3){
-  //     cout<<"    *                *"<<endl;
-  //   }
-  //   else if(x==4){
-  //     cout<<"  *                     *"<<endl;
-  //   }
-  //   else if(x==5){
-  //     cout<<"*     *      *       *     *"<<endl;
-  //       }
-  //   }
-  //all are same algo with reverse process
+  for(int x = 0;x<6;x++){
+    if(x==0){
+      cout<<"           *  "<<endl;
+    }
+    else if(x==1){ 
+      cout<<"        *      *"<<endl;
+    }
+    else if(x==2){ 
+      cout<<"      *           *"<<endl;
+    }
+    else if(x==3){
+      cout<<"    *               *"<<endl;
+    }
+    else if(x==4){
+      cout<<"  *                   *"<<endl;
+    }
+    else if(x==5){
+      cout<<"*   *    *     *      *     *"<<endl;
+        }
+    }
 }
